@@ -9,7 +9,7 @@ body {
   color: #333;
 }
 
-
+/* --- Layout Helpers --- */
 .min-h-screen {
   min-height: 100vh;
 }
@@ -46,7 +46,7 @@ body {
   padding: 2.5rem;
 }
 
-
+/* --- Typography & Spacing --- */
 .font-semibold {
   font-weight: 600;
 }
@@ -67,7 +67,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-
+/* --- Borders --- */
 .border {
   border-width: 1px;
 }
@@ -76,7 +76,7 @@ body {
   border-radius: 0.25rem;
 }
 
-
+/* --- Styled Headings & Containers --- */
 .section-heading {
   font-size: 1.5rem;
   font-weight: 600;
@@ -103,7 +103,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-
+/* --- Responsive Breakpoints --- */
 @media (min-width: 768px) {
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -118,6 +118,6 @@ body {
   }
 
   .md\:col-span-2 {
-    grid-column: span 2/span2;
- }
+    grid-column: span 2 / span 2;
+  }
 }

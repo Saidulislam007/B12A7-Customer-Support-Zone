@@ -41,7 +41,7 @@ export default function App() {
       <main className="flex-1 grid gap-4 grid-cols-1 md:grid-cols-3 p-4 lg:p-10">
         <section className="md:col-span-2">
           {/* Moved the heading here to be part of the main layout */}
-
+          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
             {tickets.map(ticket => (
               <TicketCard

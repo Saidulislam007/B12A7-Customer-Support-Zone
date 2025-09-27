@@ -6,7 +6,7 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
-    border-left: 5px solid transparent;
+    border-left: 5px solid transparent; 
 }
 
 .ticket-card:hover {
@@ -78,11 +78,9 @@
 .ticket-card.priority-high {
     border-left-color: #e74c3c;
 }
-
 .ticket-card.priority-medium {
     border-left-color: #f39c12;
 }
-
 .ticket-card.priority-low {
     border-left-color: #2ecc71;
 }
@@ -91,11 +89,9 @@
 .priority-high {
     color: #e74c3c;
 }
-
 .priority-medium {
     color: #f39c12;
 }
-
 .priority-low {
     color: #2ecc71;
 }
