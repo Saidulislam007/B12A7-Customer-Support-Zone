@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './TicketCard.css';
 import { FaCalendarAlt } from 'react-icons/fa';
 
