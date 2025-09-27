@@ -5,9 +5,9 @@
   "type": "module",
   "homepage": "https://atikrahat22.github.io/customer-support-zone",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
+    "start": "node init && vite",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "npx gh-pages -d dist"
